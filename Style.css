@@ -1,0 +1,124 @@
+/* 
+Together-1
+ */
+ body {
+    background: #B3B3B3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 125%;
+  
+  }
+  
+  p {
+    color: #151414;
+    font-size: 90%;
+    line-height: 2em;
+  }
+  
+  header {
+    background: #100e0e;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #f4fbff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px
+  }
+  
+  nav {
+    font-variant: small-caps;
+    font-family: Arial, "Times New Roman", serif;
+    font-size: 150%;
+    background-color: rgb(83, 89, 89);
+    display: inline-block;
+    width: 80%;
+  }
+  
+  h2 {
+    color: #666666;
+    background: #00b7ea;
+  }
+  
+  
+  summary {
+    font-style: normal;
+  }
+  
+  details {
+    font-style: italic;
+  }
+  
+  
+  footer {
+    background: #666666
+  }
+
+  footer p {
+    display: block;
+    color: whitesmoke;
+  }
+
+  main {
+    background-color: #B3B3B3;
+    font-size: medium;
+  }
+
+
+  #main_content {
+    color: rgb(20, 22, 22);
+  }
+
+  #main_content:hover {
+    color:whitesmoke
+  }
+
+  li {
+    display:inline;
+    width: fit-content;
+  }
+
+  img {
+    display: block;
+  }
+
+  nav img {
+    width: 50%;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-rows: 40% 40%; /* Two columns, each 40% of the container width */
+    row-gap: 1%; /* Adds 20% space between columns */
+    background-color: #acbbc3;
+    overflow: scroll;
+    justify-content: right;
+    align-items: right;
+  }
+
+  .grid img {
+    width: 20%;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: #acbbc3;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20%;
+    overflow: scroll;
+  }
+
+  .flex-container img {
+    width: 20%;
+  }
+
+  a {
+    color:whitesmoke 
+  }
+
+  a:hover {
+
+    color: black;
+  }
